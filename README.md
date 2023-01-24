@@ -1,11 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Steps necessary to get the application up and running.
+$sudo service postgresql start
+$cd blog
+$./bin/dev
 
-Things you may want to cover:
-
-* Ruby version
+* Versions
+** Ruby 3.1.1, Rails 7.0.4, Bootstrap using essbuild 
 
 * System dependencies
 
@@ -21,4 +22,6 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* TODO
+** Install Importmap
+** Install Font Awesome (Using Importmap, without node dependency)
